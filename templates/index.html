@@ -6,6 +6,7 @@
     <title>Prediction</title>
 </head>
 <body>
+    <h2 style="text-align: center;">{{prediction_text}}</h2>
     <div>
         <label class="custom-field two">
             <form action="{{ url_for('predict') }}" method="POST">
@@ -43,7 +44,7 @@
                 <div style="text-align: center;">
                     <button id="sub" type="submit">Calculate the Selling Price</button>
                 </div>
-                <br><h3 style="text-align: center;">{{prediction_text}}<h3>
+                <br>
             </form>
         </label>
         </div>
